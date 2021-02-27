@@ -137,8 +137,8 @@ div[style*="position: absolute; z-index: 1000; top: 0px; right: 0px; opacity: 0.
 
 .rm-inline-references {
   background-color: transparent;
-  border          : transparent;
-  box-shadow      : 0 0 3px 1px var(--references);
+  border          : var(--references);
+  /* box-shadow      : 0 0 3px 1px var(--references); */
   border-radius   : 5px;
   padding-top     : 5px;
   padding-bottom  : 5px;
