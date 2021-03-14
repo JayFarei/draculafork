@@ -598,7 +598,7 @@ a:hover {
 }
 
 /* Namespace text color [[roam/css]] when using CTRL+C CTRL+L || CMD+C CMD+L */
-
+/*
 .rm-page-ref--namespace {
   color      : var(--namespaces) !important;
   font-weight: 600;
@@ -610,7 +610,7 @@ a:hover {
   text-decoration: none;
   transition     : color 0.3s ease;
 }
-
+*/
 /* Highlights */
 .rm-highlight,
 .rm-highlight:hover {
