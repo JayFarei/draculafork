@@ -729,6 +729,25 @@ button[style*="border: none"] {
   border    : 1px solid #7C6EAD !important;
 }
 
+button {
+  background-color: var(--icons);
+  color: var(--background);
+}
+
+/*---------------------------------------------------------------------------*/
+
+
+/* Excalidraw adjustments */
+
+.ex-header-wrapper-light {
+  background-color: var(--sidebar-background);
+}
+
+.ex-header-title-light {
+  background-color: var(--background);
+}
+
+
 /* chart */
 svg[style*="background-color: white;"] {
   background: transparent !important;
@@ -1937,7 +1956,7 @@ div::-webkit-resizer {
   .roam-body {
     overflow-x: scroll !important;
     display   : flex;
-    background-color: var(--sidebar-background);
+    background-color: transparent;
     max-width: 100%;
   }
 
@@ -1975,3 +1994,18 @@ span[style*="color: rgb(206, 217, 224);"] {
   border-right-color: var(--icons-hover) !important;
 }
 /*---------------------------------------------------------------------------*/
+
+/* Mobile compact view */
+
+@media (max-device-width : 800px) {
+  .roam-article {
+    padding: 0px 15px 0px 25px !important;
+    /* !important needed */
+  }
+
+
+  .rm-find-or-create-wrapper:focus-within {
+	flex: 1 1 auto !important;
+	/* !important needed */
+}
+}
