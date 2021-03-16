@@ -689,6 +689,7 @@ button {
 }
 
 /* diagram */
+/*
 svg[style*="background-color: rgb(86, 112, 134);"] {
   background: var(--closed-bullets) !important;
 }
@@ -727,7 +728,7 @@ button[style*="border: none"] {
   background: transparent !important;
   border    : 1px solid #7C6EAD !important;
 }
-
+*/
 /* chart */
 svg[style*="background-color: white;"] {
   background: transparent !important;
