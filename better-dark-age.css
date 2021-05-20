@@ -128,7 +128,7 @@ span[style*="color: red"] {
 }
 */
 .rm-block-ref:hover {
-  background-color: var(--kanban-column-background) !important;
+  border-bottom: .5px solid #d8e1e885;
   transition      : color 0.3s ease;
 }
 
