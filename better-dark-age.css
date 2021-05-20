@@ -97,7 +97,7 @@ body {
   z-index      : 1000 !important;
   transition   : color 0.3s ease, border 0.3s ease !important;
 }
-
+/*
 .rm-block-ref,
 .roam-block .rm-block-ref,
 span[style*="color: red"] {
@@ -115,7 +115,7 @@ span[style*="color: red"] {
   padding-top       : 2px !important;
   padding-bottom    : 4px !important;
 }
-
+*/
 .rm-block-ref:hover {
   background-color: var(--kanban-column-background) !important;
   transition      : color 0.3s ease;
