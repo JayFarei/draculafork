@@ -126,12 +126,12 @@ span[style*="color: red"] {
   padding-top       : 2px !important;
   padding-bottom    : 4px !important;
 }
-
+*/
 .rm-block-ref:hover {
   background-color: var(--kanban-column-background) !important;
   transition      : color 0.3s ease;
 }
-*/
+
 .bp3-icon.bp3-icon-filter[style*="color: rgb(168, 42, 42);"] {
   color: var(--filter-icon) !important;
 }
