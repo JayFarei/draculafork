@@ -129,6 +129,7 @@ span[style*="color: red"] {
 */
 .rm-block-ref:hover {
   border-bottom: .5px solid #d8e1e885;
+  background: none;
   transition      : color 0.3s ease;
 }
 
