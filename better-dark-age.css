@@ -97,6 +97,17 @@ body {
   z-index      : 1000 !important;
   transition   : color 0.3s ease, border 0.3s ease !important;
 }
+
+.rm-block-ref {
+    padding: 2px 2px;
+    margin: -2px 0;
+    display: inline;
+    border-bottom: .5px solid #d8e1e821;
+    cursor: alias;
+}
+
+
+
 /*
 .rm-block-ref,
 .roam-block .rm-block-ref,
@@ -115,12 +126,12 @@ span[style*="color: red"] {
   padding-top       : 2px !important;
   padding-bottom    : 4px !important;
 }
-*/
+
 .rm-block-ref:hover {
   background-color: var(--kanban-column-background) !important;
   transition      : color 0.3s ease;
 }
-
+*/
 .bp3-icon.bp3-icon-filter[style*="color: rgb(168, 42, 42);"] {
   color: var(--filter-icon) !important;
 }
